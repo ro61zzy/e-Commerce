@@ -58,7 +58,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node ./api/server.js",
     "client": "react-scripts start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 "postbuild": "cp build/index.html build/404.html",
